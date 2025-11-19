@@ -18,4 +18,4 @@ You can optionally run the scripts with 1 or 2 parameters. The first parameter i
 
 * `x_tune_zurichdata.py` finds the optimal hyperparameters for the model, and saves the parameters to a *json* file.
 * `x_train_zurichdata.py` trains using the model using the hyperparameters from the *json*, and stores the model to a *pkl* file
-* `x_test_zurichdata.py` loads the model and tests it on the validation set, and can optionally plot its related graphs.
+* `x_test_zurichdata.py` loads the model and tests it on the test set.
